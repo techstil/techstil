@@ -8,6 +8,12 @@ I've led teams of 50+, and I still write code myself.
  
 ### 🧠 Applied AI
  
+#### ⭐ [Soundproof](https://www.epidemicsound.com/business/soundproof/): live music-rights service at Epidemic Sound
+Epidemic Sound's B2B service that **finds, fixes and prevents unlicensed music** in brands' social and influencer content (TikTok, Instagram, Facebook, YouTube). **I built the prototype that became the basis for the production service**, launched in June 2026.
+- **Scan pipeline**: collects brand and creator posts at scale and runs each one through **audio fingerprinting** to identify the music
+- **Audio classification** with **YAMNet (TensorFlow.js)** to detect music in each post's audio <!-- check: adjust if YAMNet does something else -->
+- **LLM-based record-label classification** with **Gemini 2.5 Flash**, which turns raw matches into a per-post rights-risk assessment
+- Stack: TypeScript · Node.js · React · MySQL
 #### ⭐ [Clari](https://clari.technium.se): AI-guided reflection & mental health, built with Karolinska Institutet
 Co-built and launched with my partner <!-- Ludwig: add name/@handle once he's OK with it -->, in collaboration with researchers at **Karolinska Institutet**.
 - **LLM analysis pipelines** that turn open-ended user reflections into structured insight
@@ -23,7 +29,7 @@ Co-built and launched with my partner <!-- Ludwig: add name/@handle once he's OK
 - Advising software teams on applied LLM systems and AI-augmented engineering workflows
 ### 🔨 Now
 - **Founder, Technium**: applied AI and platform consulting
-- **API architecture & platform strategy at Epidemic Sound**: integration patterns for B2B and partner ecosystems, groundwork for AI-driven music workflows, and the connector that lets **Lovable** apps use the Epidemic Sound API
+- **Epidemic Sound**: API architecture and platform strategy. Built the **Soundproof** prototype (see above). Helped design and document the new **public REST partner API** and launch Epidemic Sound's **MCP server**, which makes the catalog usable by AI agents. Co-built the connector that lets **Lovable** apps use the Epidemic Sound API.
 ### 🏁 Before
 | | |
 |---|---|
@@ -35,7 +41,7 @@ Co-built and launched with my partner <!-- Ludwig: add name/@handle once he's OK
 ### 🌐 Side project
 - **[irisbythesea.se](https://irisbythesea.se)**: crew site for my 46 ft offshore racer, with a bilingual MDX blog and crew applications ([code](https://github.com/techstil/iris))
 ### 🧰 Toolbox
-`TypeScript` `React` `Next.js` `Node.js` `MySQL` `Linux` `GitHub Actions` · `OpenAI` `Claude` `prompt chaining` `evals` `guardrails` `agents` · `REST/SDK design` · `OpenXR` `Unity` `Unreal` · `C` `Java` `imaging/3D`
+`TypeScript` `React` `Next.js` `Node.js` `MySQL` `Linux` `GitHub Actions` · `OpenAI` `Claude` `Gemini` `prompt chaining` `evals` `guardrails` `agents` `MCP` `TensorFlow.js` · `REST/SDK design` · `OpenXR` `Unity` `Unreal` · `C` `Java` `imaging/3D`
  
 ### 🌍 Elsewhere
 M.Sc. Computer Science (Linköping) · Singularity University GSP, NASA Ames · Sailor · DJ (the handle *techstil* comes from that)
