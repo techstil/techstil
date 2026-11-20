@@ -15,7 +15,7 @@ Epidemic Sound's B2B service that **finds, fixes and prevents unlicensed music**
 - **LLM-based record-label classification** with **Gemini 2.5 Flash**, which turns raw matches into a per-post rights-risk assessment
 - Stack: TypeScript · Node.js · React · MySQL
 #### ⭐ [Clari](https://clari.technium.se): AI-guided reflection & mental health, built with Karolinska Institutet
-Co-built and launched with my partner <!-- Ludwig: add name/@handle once he's OK with it -->, in collaboration with researchers at **Karolinska Institutet**.
+Co-founded and built with a partner, in collaboration with researchers at **Karolinska Institutet**. <!-- swap "a partner" for Ludwig's name/@handle once he's OK with it -->
 - **LLM analysis pipelines** that turn open-ended user reflections into structured insight
 - **Structured prompt workflows** with prompt chaining and reasoning steps, built on OpenAI (GPT-4) and Anthropic Claude
 - **Guardrails and eval frameworks**, which matter for a sensitive mental-health domain
@@ -45,7 +45,8 @@ Co-built and launched with my partner <!-- Ludwig: add name/@handle once he's OK
  
 ### 🌍 Elsewhere
 M.Sc. Computer Science (Linköping) · Singularity University GSP, NASA Ames · Sailor · DJ (the handle *techstil* comes from that)
-[LinkedIn](https://www.linkedin.com/in/marcus-olsson-su/)
+ 
+💼 [LinkedIn](https://www.linkedin.com/in/marcus-olsson-su/)
  
 <sub>Most of my code lives in private client repos. The contribution graph shows the activity, and the work above shows what it builds.</sub>
  
